@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+#home > h1{
+    font-size: 70px;
+}
+#home > p{
+    font-size: 20px;
+}
+
+.skills-container, .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-box, .project-box {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.skill-box img, .project-box img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-container a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    color: #0073b1; /* LinkedIn blue */
+}
+
+/* Enhanced Navbar */
+nav {
+    background-color: #4caaaf;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 3px solid #4caaaf;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Skill and Project Boxes */
+.skill-box, .project-box {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-box:hover, .project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Icons */
+.contact-container a {
+    color: #4caaaf;
+    transition: color 0.3s;
+}
+
+.contact-container a:hover {
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4caaaf;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    background-color: #e9f7ef;
+}
+
+#skills {
+    background-color: #fff3e0;
+}
+
+#projects {
+    background-color: #e3f2fd;
+}
+
+#contact {
+    background-color: #fce4ec;
+}
+
+
